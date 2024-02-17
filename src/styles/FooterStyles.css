@@ -1,10 +1,24 @@
 .footer-cntr {
-  background-color: #bd72d3;
+  background-color: #b056be;
 }
 
-.up-cntr{
+.top-cntr {
+  height: 30vh;
   display: flex;
-  margin: 0 104.500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-cntr > h2 {
+  color: #757575;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+
+.up-cntr {
+  display: flex;
+  margin: 0 104.5px;
 }
 
 .btm-cntr {
@@ -15,7 +29,7 @@
   padding: 5vh 0;
 }
 
-.inpt-field{
+.inpt-field {
   border: 1px solid #bd72d3;
   background-color: #222630;
   padding: 8px 16px;
@@ -25,7 +39,7 @@
 }
 
 .inpt-field:active,
-.inpt-field:focus{
+.inpt-field:focus {
   outline: none;
   color: #ffffff;
 }
@@ -39,21 +53,21 @@
   align-self: center;
 }
 
-.img-cntr{
+.img-cntr {
   margin: 40px 0;
 }
 
-.redrkt-cntr{
+.redrkt-cntr {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.redrkt-cntr>p{
+.redrkt-cntr > p {
   margin: 0 20px;
 }
 
-.btm-text-cntr{
+.btm-text-cntr {
   font-size: x-small;
   text-align: right;
   align-items: center;
