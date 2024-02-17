@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="up-cntr">
         <div className="txt-cntr">Keep track of the wolves</div>
         <div className="img-cntr">
-          <img src="/src/assets/footer1.jpg" alt="" srcset="" height={200} width={200}/>
-          <img src="/src/assets/footer2.jpg" alt="" srcset="" height={200} width={200}/>
-          <img src="/src/assets/footer3.jpg" alt="" srcset="" height={200} width={200}/>
+          <img src="../assets/footer1.jpg" alt="" srcset="" height={200} width={200}/>
+          <img src="../assets/footer2.jpg" alt="" srcset="" height={200} width={200}/>
+          <img src="../assets/footer3.jpg" alt="" srcset="" height={200} width={200}/>
         </div>
       </div>
       <div className="btm-cntr">

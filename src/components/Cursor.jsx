@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/Cursor.css";
+import "../styles/CursorStyles.css";
 import { motion } from "framer-motion";
 
 const Cursor = ({ scaling }) => {
