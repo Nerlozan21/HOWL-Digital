@@ -1,0 +1,22 @@
+.clentel-cntr{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  padding: 10px;
+}
+
+.img-cntr1, .img-cntr2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clentel-cntr>h2{
+  font-family: "Montserrat", Sans-serif;
+  color: #BD72D3;
+  text-align: center;
+  font-size: 2.8vw;
+  font-weight: 700;
+}
