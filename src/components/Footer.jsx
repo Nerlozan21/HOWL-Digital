@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footer-cntr">
         <div className="up-cntr">
           <div className="txt-cntr">
-            <p>Keep track of the wolves</p>
+            <p>Keep track of <br />the wolves</p>
             <img src="../assets/feedArrow.png" alt="" srcset="" />
           </div>
           <div className="img-cntr">
