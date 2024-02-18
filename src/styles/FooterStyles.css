@@ -4,7 +4,7 @@
 
 .ftr-main-ctr{
   height: 100vh;
-  align-items: end;
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
 }
@@ -17,7 +17,6 @@
   align-items: center;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
   background-color: #fdfdfd;
-  margin-top: 30px;
 }
 
 .top-cntr > h2 {
