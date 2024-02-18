@@ -3,7 +3,7 @@ import "../styles/FooterStyles.css";
 
 const Footer = () => {
   return (
-    <>
+    <div className="ftr-main-ctr">
       <div className="top-cntr">
         <h2>
           Ready to accelerate your business? 
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
