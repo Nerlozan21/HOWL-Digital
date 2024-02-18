@@ -4,7 +4,7 @@
 
 .ftr-main-ctr{
   height: 100vh;
-  align-items: end;
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
 }
