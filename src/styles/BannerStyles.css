@@ -1,0 +1,35 @@
+.cmpt1-cntr {
+  display: flex;
+  justify-content: space-between; /* Ensure the children are evenly spaced */
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh; /* Set the height to 100vh for full viewport height */
+}
+
+.banner-txt-cntr {
+  flex: 1; /* Allow the container to grow to occupy available space */
+  padding: 0 20px; /* Add padding for spacing */
+}
+
+.img-cntr {
+  flex: 1; /* Allow the container to grow to occupy available space */
+  text-align: center; /* Center align the images */
+  position: relative;
+}
+
+.banner-img1,
+.banner-img2 {
+  max-width: 100%; /*Ensure images don't exceed container width*/
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.banner-img1 {
+  width: 70%;
+}
+
+.banner-img2 {
+  width: 40%;
+  position: relative;
+  top: -110px;
+}
