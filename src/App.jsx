@@ -13,7 +13,7 @@ const App = () => {
         <Cursor scaling={scaling} />
         <Header></Header>
         <Banner></Banner>
-        <img src="../assets/neom-bA32w6lebJg-unsplash.jpg" alt="" sizes="" srcset="" className="home-img"/>
+        <img src="../assets/neom-bA32w6lebJg-unsplash.jpg" alt="" sizes="" srcset="" className="home-img" loading='lazy'/>
         <Clientel></Clientel>
         <Footer></Footer>
       </div>

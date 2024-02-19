@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="up-cntr">
           <div className="txt-cntr">
             <p>Keep track of <br />the wolves</p>
-            <img src="../assets/feedArrow.png" alt="" srcset="" />
+            <img src="../assets/feedArrow.png" alt="" srcset="" loading='lazy'/>
           </div>
           <div className="img-cntr">
             <img
@@ -23,6 +23,7 @@ const Footer = () => {
               srcset=""
               height={200}
               width={200}
+              loading='lazy'
             />
             <img
               src="../assets/footer2.jpg"
@@ -30,6 +31,7 @@ const Footer = () => {
               srcset=""
               height={200}
               width={200}
+              loading='lazy'
             />
             <img
               src="../assets/footer3.jpg"
@@ -37,6 +39,7 @@ const Footer = () => {
               srcset=""
               height={200}
               width={200}
+              loading='lazy'
             />
           </div>
         </div>
