@@ -3,3 +3,9 @@
   padding: 0;
   height: 150vh; 
 }
+
+@media screen and (max-width: 768px) {
+  .home-img{
+    height: 50vh;
+  }
+}
