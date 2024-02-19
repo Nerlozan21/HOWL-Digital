@@ -15,3 +15,9 @@
   background-color: rgb(90, 176, 247);
   z-index: 43242;
 }
+
+@media screen and (max-width: 768px) {
+  .large_circle, .small_circle{
+    display: none;
+  }
+}

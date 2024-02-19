@@ -10,7 +10,7 @@ const App = () => {
   const [scaling, setscaling] = useState(false);
   return (
       <div className="app">
-        <Cursor scaling={scaling} />
+        <Cursor scaling={scaling} className="cursor"/>
         <Header></Header>
         <Banner></Banner>
         <img src="../assets/neom-bA32w6lebJg-unsplash.jpg" alt="" sizes="" srcset="" className="home-img" loading='lazy'/>
